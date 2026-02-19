@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- LINK TO CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Fira+Code:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container header-content">
+        <a href="index.html" class="logo-link">
+          <img src="pics/MA Logo.png" alt="MA Logo" class="logo-img" />
+        </a>
+
+        <div class="header-right">
+          <nav>
+            <ul class="nav-links">
+              <li><a href="about.html">about</a></li>
+              <li><a href="portfolio.html">portfolio</a></li>
+            </ul>
+          </nav>
+
+          <div class="social-icons">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=quiapm@gmail.com"
+              target="_blank"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/@martangelquiapofficial2654"
+              target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/martangelquiap" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 1. HERO SECTION (Split Persona) -->
+    <main class="hero-section">
+      <div class="container hero-grid">
+        <!-- Left: Designer -->
+        <div class="text-left clickable-area" id="designer-side">
+          <h1 class="title-designer">designer</h1>
+          <p class="description">
+            Graphic & UI/UX Designer passionate about creating beautiful,
+            functional visuals and user-centered interfaces. Skilled in
+            branding, social media graphics, and web/app design using tools like
+            Adobe Photoshop, Illustrator, InDesign, XD, Figma, and Canva.
+          </p>
+        </div>
+
+        <!-- Center: Image Container -->
+        <div class="image-center" id="profile-image">
+          <img
+            src="pics/myface.png"
+            class="img-layer active"
+            id="img-center"
+            alt="Center Face"
+          />
+          <img
+            src="pics/right.png"
+            class="img-layer"
+            id="img-right"
+            alt="Right Face"
+          />
+          <img
+            src="pics/left.png"
+            class="img-layer"
+            id="img-left"
+            alt="Left Face"
+          />
+        </div>
+
+        <!-- Right: Coder -->
+        <div class="text-right clickable-area" id="coder-side">
+          <h1 class="title-coder">&lt;coder&gt;</h1>
+          <p class="description">
+            Intermediate Front-End Developer crafting clean, elegant, and
+            efficient digital experiences with HTML5, CSS3, JavaScript,
+            React.js, and Node.js—version-controlled with Git, built on
+            WordPress, and constantly sharpening my skills through consistent
+            practice.
+          </p>
+        </div>
+      </div>
+      <!-- ... inside index.html ... -->
+    </main>
+    <!-- End of Hero Section -->
+
+    <!-- NEW: PHOTO STRIP SECTION -->
+    <div class="photo-strip-section">
+      <div class="container photo-grid">
+        <!-- 6 Blank Images -->
+        <div class="photo-card">
+          <img src="pics/1.jpg" alt="Photo 1" />
+        </div>
+        <div class="photo-card">
+          <img src="pics/2.jpg" alt="Photo 2" />
+        </div>
+        <div class="photo-card">
+          <img src="pics/3.jpg" alt="Photo 3" />
+        </div>
+        <div class="photo-card">
+          <img src="pics/4.jpg" alt="Photo 4" />
+        </div>
+        <div class="photo-card">
+          <img src="pics/5.jpg" alt="Photo 5" />
+        </div>
+        <div class="photo-card">
+          <img src="pics/6.jpg" alt="Photo 6" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. WHAT I DO SECTION (Skills) -->
+
+    <!-- NEW: SKILLS GRAPH SECTION -->
+    <section class="graph-section">
+      <div class="container">
+        <!-- The ID 'skills-graph' is used by JS to detect scrolling -->
+        <video
+          src="pics/skills.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+          class="fade-up-element"
+          id="skills-graph"
+        ></video>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="container footer-content">
+        <img src="pics/MA Logo.png" alt="Logo" class="footer-logo" />
+        <p>Living, learning, & leveling up one day at a time.</p>
+
+        <!-- COPIED LINKS FROM HEADER -->
+        <div class="social-icons footer-socials">
+          <!-- Email -->
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=quiapm@gmail.com"
+            target="_blank"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+
+          <!-- YouTube -->
+          <a
+            href="https://www.youtube.com/@martangelquiapofficial2654"
+            target="_blank"
+          >
+            <i class="fab fa-youtube"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/martangelquiap" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <p class="copyright">&copy; 2024 Mart Angel. Handcrafted.</p>
+      </div>
+    </footer>
+    <!-- ... Rest of your website ... -->
+
+    <!-- NEW: LIGHTBOX OVERLAY (Hidden by default) -->
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <!-- LINK TO JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
